@@ -226,7 +226,7 @@ section{
 /* fourthsection ending */
 /* fifthsection starting */
 .fifthsection {
-    background-image: url(assets/image/fifthbg.jpg);
+    background-image: url(../assets/image/fifthbg.jpg);
     background-size: cover;
 }
 
