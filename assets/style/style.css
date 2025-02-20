@@ -226,7 +226,7 @@ section{
 /* fourthsection ending */
 /* fifthsection starting */
 .fifthsection {
-   background-image: url('/promyc/assets/image/fifthbg.jpg');
+   background-image: url('/assets/image/fifthbg.jpg');
 
     background-size: cover;
 }
@@ -283,7 +283,7 @@ section{
 /* sixthsection ending  */
 /* seventhsection starting */
 .seventhsection {
-    background-image: url(assets/image/seventhimg.png);
+    background-image: url('/assets/image/seventhimg.png');
     background-size: cover;
 }
 
