@@ -225,11 +225,7 @@ section{
 
 /* fourthsection ending */
 /* fifthsection starting */
-.fifthsection {
-   background-image: url('assets/image/fifthbg.jpg');
 
-    background-size: cover;
-}
 
 .head5 {
     padding-top: 80px;
@@ -282,10 +278,7 @@ section{
 
 /* sixthsection ending  */
 /* seventhsection starting */
-.seventhsection {
-    background-image: url('/assets/image/seventhimg.png');
-    background-size: cover;
-}
+
 
 .head7 {
     padding-top: 80px;
