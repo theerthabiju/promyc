@@ -13,13 +13,13 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #180f0f;
+    background: #023d03;
     border-radius: 10px;
   }
   
   
   ::-webkit-scrollbar-thumb:hover {
-    background: #a6c0b9;
+    background: #025314;
   }
 body{
     overflow-x: hidden;
@@ -27,6 +27,10 @@ body{
 section{
     overflow-x: hidden;
 }
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(20, 79, 3);
+  }
 
 @media  (width: 768px) {
    
@@ -136,6 +140,7 @@ section{
 
 .carousel-item {
     background-size: cover;
+  
 }
 
 /* header ending */
@@ -146,6 +151,8 @@ section{
     text-align: center;
     align-items: center;
     margin: 80px;
+    margin-top: 40px;
+    margin-bottom: 60px;
 }
 
 /*firstsection ending */
@@ -160,7 +167,10 @@ section{
 
 .subhead2 {
     margin: 40px;
+    text-align: justify;
     margin-bottom: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
     color: white;
 }
 
@@ -182,7 +192,7 @@ section{
 }
 
 .head3 {
-    padding-top: 80px;
+    padding-top: 60px;
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: normal;
@@ -209,7 +219,9 @@ section{
     font-weight: 700;
     font-style: normal;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 80px;
+    margin-left: 50px;
+   
 }
 
 .subhead4 {
@@ -217,15 +229,15 @@ section{
     font-family: "Lato", serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 50px;
+  
 }
 
 /* fourthsection ending */
 /* fifthsection starting */
-
 
 .head5 {
     padding-top: 80px;
@@ -241,12 +253,6 @@ section{
     font-style: normal;
 }
 
-.icon2 {
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-bottom: 80px;
-}
 
 /* fifthsection ending */
 /* sixthsection starting */
@@ -261,7 +267,8 @@ section{
     font-style: normal;
     text-align: start;
     margin-top: 60px;
-    margin-left: 40px;
+    margin-left: 80px;
+
 }
 
 .subhead6 {
@@ -272,8 +279,8 @@ section{
     font-style: normal;
     text-align: start;
     margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 20px;
+    margin-left: 80px;
+    margin-right: 50px;
 }
 
 /* sixthsection ending  */
@@ -314,7 +321,9 @@ section{
     color: rgb(0, 0, 0);
     margin-top: 30px;
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    text-align: justify;
 }
 
 .head8 {
@@ -323,6 +332,7 @@ section{
     font-weight: 700;
     font-style: normal;
     margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: 40px;
 }
 
@@ -334,7 +344,7 @@ section{
 }
 
 .headcard {
-    padding-top: 30px;
+    padding-top: 80px;
     font-family: "Lato", serif;
     font-weight: 700;
     font-style: normal;
@@ -412,7 +422,9 @@ section{
     font-style: normal;
     margin: 40px;
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    text-align: justify;
     color: rgb(0, 0, 0);
 }
 
@@ -422,13 +434,14 @@ section{
     font-weight: 700;
     font-style: normal;
     margin: 40px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
 .lastsection .btn {
     margin-left: 40px;
     border-radius: 30px;
+    margin-bottom: 20px;
 }
 
 .lastsection {
@@ -440,6 +453,7 @@ section{
 
 .footersection {
     background-color: black;
+   
 }
 
 .footer-img {
@@ -447,7 +461,8 @@ section{
 }
 
 .footer-row {
-    padding-top: 50px;
+    padding-top: 80px;
+    margin-left: 70px;
 }
 
 
@@ -455,6 +470,7 @@ section{
 .border-box {
     margin-bottom: 20px;
     width: 350px;
+    outline: none;
     background-color: transparent;
     border-left: transparent;
     border-right: transparent;
