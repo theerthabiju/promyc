@@ -220,7 +220,7 @@ section{
     font-style: normal;
     align-items: center;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 30px;
    
 }
 
@@ -231,7 +231,7 @@ section{
     font-style: normal;
     text-align: justify;
     margin-top: 30px;
-    margin-left: 80px;
+    margin-left: 70px;
     margin-right: 50px;
   
 }
@@ -415,6 +415,7 @@ section{
     font-style: normal;
 }
 
+
 /* lastsection starting */
 .subheadlast {
     font-family: "Lato", serif;
@@ -449,6 +450,7 @@ section{
 }
 
 /* last ending */
+
 /* footer section starting */
 
 .footersection {
@@ -464,8 +466,6 @@ section{
     padding-top: 80px;
     margin-left: 70px;
 }
-
-
 
 .border-box {
     margin-bottom: 20px;
