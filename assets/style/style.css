@@ -119,7 +119,7 @@ section{
 
 @media (max-width: 768px) {
     .navbar-nav { 
-        background-color: #1d0707c0;
+        background-color: #000000dd;
         text-align: center;
         font-weight: bold;
         width: 300px;
