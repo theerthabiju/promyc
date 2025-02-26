@@ -91,12 +91,11 @@ section{
 
 
 
-
-/* header starting */
-
 .navbar {
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(154, 176, 154, 0));
-    height: 100px;
+    background-color: white;
+    height: 70px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 @media only screen and (max-width: 468px) {
@@ -109,27 +108,34 @@ section{
 
 .navbar-toggler {
     margin-right: 50px;
-    background-color: rgba(240, 255, 247, 0.438);
+    background-color: rgba(255, 255, 255, 0.297);
 }
 
 .navbar-nav {
     margin-right: 100px;
+    font-weight: bold;
+    animation-name: slideDown;
+    animation-duration: 0.3s;
 
 }
 
 @media (max-width: 768px) {
     .navbar-nav { 
-        background-color: #000000dd;
+        margin-top: 30px;
+        background-color: #ffffff;
         text-align: center;
         font-weight: bold;
-        width: 300px;
+    width: 300px;
+   box-shadow: #023d03;
         border-radius: 30px;
     }
 }
 
 .navbrand {
     margin-left: 150px;
+
 }
+
 
 /* carousel */
 @media (max-width: 468px) {
@@ -354,6 +360,7 @@ section{
 
 
 /* eighth ending */
+
 /* card section starting */
 .cardsection {
     background-color: #F8F2E7;
@@ -376,27 +383,30 @@ section{
     text-align: center;
 }
 
- @media  (width: 768px) {
+@media (width: 768px) {
     .cardsection .card {
         width: 600px;
-       height: 300px;
+        height: 300px;
         border-radius: 25px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
     }
-    .card  .card-img-top {
+
+    .card .card-img-top {
         width: 150px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    margin-left: 30px;
-} 
-.card-body p{
-    font-size: 8px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin-left: 30px;
+    }
+
+    .card-body p {
+        font-size: 8px;
+    }
 }
- }
+
 .card {
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 500px;
     border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
@@ -410,7 +420,7 @@ section{
 
 .card-img-top {
 
-    height: 150px;
+    height: 250px;
 
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -430,7 +440,6 @@ section{
     font-weight: 200;
     font-style: normal;
 }
-
 
 /* lastsection starting */
 .subheadlast {
