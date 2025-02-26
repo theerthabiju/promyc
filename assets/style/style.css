@@ -94,8 +94,6 @@ section{
 .navbar {
     background-color: white;
     height: 70px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
 }
 
 @media only screen and (max-width: 468px) {
