@@ -32,7 +32,7 @@ section{
     background: rgb(20, 79, 3);
   }
 
-@media  (width: 768px) {
+@media  (min-width:471px) {
    
     .head1 {
         font-size: 30px;
