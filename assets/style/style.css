@@ -114,10 +114,13 @@ section{
     font-weight: bold;
     animation-name: slideDown;
     animation-duration: 0.3s;
-
+}
+.navbar-nav :hover{
+    background-color: #e2d8d81a;
+    border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
     .navbar-nav { 
         margin-top: 30px;
         background-color: #ffffff;
