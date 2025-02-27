@@ -95,7 +95,6 @@ section{
 .navbar {
    background-image: linear-gradient(to bottom ,black , rgba(255, 255, 255, 0.023));
     height: 70px;  
-    height: 70px;
 }
 
 @media only screen and (max-width: 468px) {
