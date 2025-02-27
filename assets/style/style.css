@@ -7,13 +7,14 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #f0eeee;
+   background: #01060044;
+
 
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #023d03;
+   background: #025d04;
     border-radius: 10px;
   }
   
