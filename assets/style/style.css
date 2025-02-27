@@ -124,12 +124,12 @@ section{
 @media (max-width: 990px) {
     .navbar-nav { 
        margin-top: 30px;
-        background-color: #ffffff;
+      background-color: #2002029c;
         text-align: center;
         font-weight: bold;
         width: 300px; 
         border-radius: 30px;
-        box-shadow: 5px 0 5px rgb(234, 233, 233);
+        box-shadow: 5px 0 5px rgb(37, 26, 26);
     }
 }
 
@@ -494,6 +494,7 @@ section{
 }
 
 .border-box {
+     color: white;
     margin-bottom: 20px;
     width: 350px;
     outline: none;
