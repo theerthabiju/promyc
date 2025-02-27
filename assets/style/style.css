@@ -132,15 +132,14 @@ section{
         box-shadow: 5px 0 5px rgb(37, 26, 26);
     }
 }
-@media (max-width: 990px) {
-  .sample {
-    margin-left: 50px;
-
-}
-}
 .navbrand {
     margin-left: 150px;
+}
 
+@media (max-width: 990px) {
+    .navbrand {
+        margin-left: 50px;
+    }
 }
 
 
