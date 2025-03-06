@@ -1,5 +1,6 @@
 ::-webkit-scrollbar {
     width: 15px;
+<<<<<<< HEAD
 
 
 }
@@ -14,6 +15,31 @@
 ::-webkit-scrollbar-thumb {
     background: #025d04;
     border-radius: 10px;
+=======
+    
+  
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   background: #01060044;
+
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+   background: #025d04;
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #025314;
+  }
+body{
+    overflow-x: hidden;
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
 
@@ -24,7 +50,12 @@
 body {
     overflow-x: hidden;
 }
+::selection {
+    color: rgb(255, 255, 255);
+    background: rgb(20, 79, 3);
+  }
 
+<<<<<<< HEAD
 section {
     overflow-x: hidden;
 }
@@ -36,6 +67,10 @@ section {
 
 @media (width:768px) {
 
+=======
+@media  (width:768px) {
+   
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
     .head1 {
         font-size: 30px;
     }
@@ -93,12 +128,15 @@ section {
 
 
 
-/* header starting */
-
 .navbar {
+<<<<<<< HEAD
     background-image: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.023));
     height: 70px;
 
+=======
+   background-image: linear-gradient(to bottom ,black , rgba(255, 255, 255, 0.023));
+    height: 70px;  
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
 
@@ -118,6 +156,7 @@ section {
 .navbar-nav {
     margin-right: 100px;
     font-weight: bold;
+<<<<<<< HEAD
 }
 
 .navbar-nav :hover {
@@ -138,8 +177,27 @@ section {
     }
 
 
+=======
+    animation-name: slideDown;
+    animation-duration: 0.3s;
+}
+.navbar-nav :hover{
+    background-color: #e2d8d81a;
+    border-radius: 20px;
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
+@media (max-width: 990px) {
+    .navbar-nav { 
+       margin-top: 30px;
+      background-color: #2002029c;
+        text-align: center;
+        font-weight: bold;
+        width: 300px; 
+        border-radius: 30px;
+        box-shadow: 5px 0 5px rgb(37, 26, 26);
+    }
+}
 .navbrand {
     margin-left: 150px;
 }
@@ -150,6 +208,10 @@ section {
     }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 /* carousel */
 @media (max-width: 468px) {
     .carousel-caption {
@@ -180,7 +242,6 @@ section {
 }
 
 /* header ending */
-
 /* firstsection starting */
 .firstcontainer {
     justify-content: center;
@@ -257,7 +318,11 @@ section {
     align-items: center;
     margin-top: 80px;
     margin-left: 30px;
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
 .subhead4 {
@@ -269,15 +334,15 @@ section {
     margin-top: 30px;
     margin-left: 70px;
     margin-right: 50px;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
 /* fourthsection ending */
 /* fifthsection starting */
-.fifthsection {
-    background-image: url(/assets/image/fifthbg.jpg);
-    background-size: cover;
-}
 
 .head5 {
     padding-top: 80px;
@@ -325,10 +390,7 @@ section {
 
 /* sixthsection ending  */
 /* seventhsection starting */
-.seventhsection {
-    background-image: url(/assets/image/seventhimg.png);
-    background-size: cover;
-}
+
 
 .head7 {
     padding-top: 80px;
@@ -381,6 +443,7 @@ section {
 
 
 /* eighth ending */
+
 /* card section starting */
 .cardsection {
     background-color: #F8F2E7;
@@ -449,7 +512,10 @@ section {
 
 .card-body {
     font-family: "Titillium Web", serif;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
     font-style: normal;
     font-size: 14px;
     text-align: center;
@@ -475,10 +541,14 @@ section {
 }
 
 .headlast {
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
     font-family: "Permanent Marker", serif;
     font-weight: 400;
     font-style: normal;
+    color: rgb(0, 0, 0);   
     margin: 40px;
     margin-bottom: 30px;
     margin-top: 40px;
@@ -495,11 +565,16 @@ section {
 }
 
 /* last ending */
+
 /* footer section starting */
 
 .footersection {
     background-color: black;
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
 }
 
 .footer-img {
@@ -511,10 +586,12 @@ section {
     margin-left: 70px;
 }
 
-
-
 .border-box {
+<<<<<<< HEAD
     color: white;
+=======
+     color: white;
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
     margin-bottom: 20px;
     width: 350px;
     outline: none;
@@ -529,6 +606,7 @@ section {
     text-align: start;
     padding: 10px;
 }
+<<<<<<< HEAD
 
 /* main-page-ending */
 /* -------------------------------------------------------------------------------------------
@@ -613,3 +691,5 @@ section {
     color: #025314;
 } 
 /* contactcard ending */
+=======
+>>>>>>> 710c81a5667c646c91e0b5cbb3573961d36e6979
