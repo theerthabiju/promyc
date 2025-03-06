@@ -613,7 +613,6 @@ section {
 ------------------------------------------------------------------------------------------- */
 /* contact-page-starting */
 .banner-contact {
-    background-image: url(/assets/image/headertopimg.jpg);
     height: 300px;
     background-size: cover;
     overflow: hidden;
