@@ -653,7 +653,11 @@ section {
     background: #025314;
 }
 
-
+.banner-contact h1{
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 /* contactformsectionending */
 /* contactcard starting */
 .contactcard {
