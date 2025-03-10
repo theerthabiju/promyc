@@ -632,6 +632,9 @@ section {
 .contact-form h2 {
     color: #025314;
 }
+.col-md-8 :hover{
+background-color: #f0f0f0;
+}
 
 @media (max-width: 768px) {
     .contact-form {
