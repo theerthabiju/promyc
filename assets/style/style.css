@@ -596,7 +596,6 @@ section {
     height: 300px;
     background-size: cover;
     overflow: hidden;
-    /* filter: brightness(50%); */
     color: #ffffff;
     text-align: center;
     padding-top: 130PX;
@@ -613,23 +612,20 @@ section {
 /* contactnavbarending */
 /* contact form section starting */
 .contactsection {
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f8f9fa;
     padding: 20px
 }
 
 .contact-form {
+  
     background: #fff;
     margin-top: 40px;
     margin-bottom: 40px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 800px;
     border: 2px solid #025314;
 }
 
