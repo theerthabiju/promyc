@@ -133,10 +133,6 @@ section {
     background-image: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.023));
     height: 70px;
 
-
-    background-image: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.023));
-    height: 70px;
-
 }
 
 
@@ -498,8 +494,6 @@ section {
 
 .card-body {
     font-family: "Titillium Web", serif;
-
-
     font-style: normal;
     font-size: 14px;
     text-align: center;
