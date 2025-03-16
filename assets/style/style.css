@@ -19,18 +19,6 @@
 
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #01060044;
-
-
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #025d04;
-    border-radius: 10px;
-}
 
 
 ::-webkit-scrollbar-thumb:hover {
@@ -42,23 +30,10 @@ body {
 
 }
 
-
-::-webkit-scrollbar-thumb:hover {
-    background: #025314;
-}
-
-body {
-    overflow-x: hidden;
-}
 
 ::selection {
     color: rgb(255, 255, 255);
     background: rgb(20, 79, 3);
-}
-
-
-section {
-    overflow-x: hidden;
 }
 
 ::selection {
@@ -128,12 +103,8 @@ section {
 
 
 .navbar {
-
     background-image: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.023));
     height: 70px;
-
-
-
 }
 
 
@@ -182,17 +153,6 @@ section {
     }
 }
 
-@media (max-width: 990px) {
-    .navbar-nav {
-        margin-top: 30px;
-        background-color: #2002029c;
-        text-align: center;
-        font-weight: bold;
-        width: 300px;
-        border-radius: 30px;
-        box-shadow: 5px 0 5px rgb(37, 26, 26);
-    }
-}
 
 .navbrand {
     margin-left: 150px;
@@ -562,9 +522,6 @@ section {
 .border-box {
 
     color: white;
-
-    color: white;
-
     margin-bottom: 20px;
     width: 350px;
     outline: none;
@@ -586,6 +543,7 @@ section {
 ------------------------------------------------------------------------------------------- */
 /* contact-page-starting */
 .banner-contact {
+
     height: 400px;
     background-size: cover;
     overflow: hidden;
@@ -620,11 +578,14 @@ section {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 
+
 }
+
 
 
 .formeffect:hover {
     transform: scale(1.05);
+
 }
 
 
@@ -672,5 +633,6 @@ section {
 .contactcard .card-title {
     color: #025314;
 }
+
 
 /* contactcard ending */
