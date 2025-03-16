@@ -19,29 +19,6 @@
 
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: #01060044;
-
-
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #025d04;
-    border-radius: 10px;
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-    background: #025314;
-}
-
-body {
-    overflow-x: hidden;
-
-}
-
 
 ::-webkit-scrollbar-thumb:hover {
     background: #025314;
@@ -61,10 +38,6 @@ section {
     overflow-x: hidden;
 }
 
-::selection {
-    color: rgb(255, 255, 255);
-    background: rgb(20, 79, 3);
-}
 
 
 
@@ -181,17 +154,6 @@ section {
     }
 }
 
-@media (max-width: 990px) {
-    .navbar-nav {
-        margin-top: 30px;
-        background-color: #2002029c;
-        text-align: center;
-        font-weight: bold;
-        width: 300px;
-        border-radius: 30px;
-        box-shadow: 5px 0 5px rgb(37, 26, 26);
-    }
-}
 
 .navbrand {
     margin-left: 150px;
