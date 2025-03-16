@@ -72,44 +72,48 @@
 
     <!-- contact-form-section-starting -->
    
-    <section class="contactsection"   style="background-image: url(assets/image/bgcontact.jpg);">
-        <div class="container">
-            <div class="row justify-content-center">
+     <!-- contact-form-section-starting -->
+
+    <section class="contactsection" style="background-image: url(assets/image/bgcontact.jpg);">
+        <div class="  container">
+            <div class="row  justify-content-center">
                 <div class="col-md-8 ">
-                    <form class="contact-form formeffect ">
+                    <form class="contact-form formeffect" id="contactid">
                         <h2 class="text-center mb-4"><B>CONTACT FORM</B></h2>
 
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
-                          
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+
                         </div>
 
                         <div class="mb-3">
                             <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
-                            
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@example.com">
+
                         </div>
 
                         <div class="mb-3">
                             <label for="phone" class="form-label">Phone Number</label>
-                            <input type="number" class="form-control" id="phone" placeholder="Enter Your Number" required>
-                            
+                            <input type="number" class="form-control" id="phone" name="phone"
+                                placeholder="Enter Your Number">
+
                         </div>
 
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="3" required></textarea>
-                            
+                            <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+
                         </div>
 
                         <div class="form-check mb-3">
-                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <input type="checkbox" class="form-check-input" id="terms" name="checkbox" >
                             <label class="form-check-label" for="terms">
                                 I agree with terms and
                                 conditions.
                             </label>
-                           
+
                         </div>
 
                         <button type="submit" class="btn btn-outline-success w-100">Send</button>
@@ -238,8 +242,11 @@
         </footer>
     </section> 
     <!-- footer ending -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 </body>
